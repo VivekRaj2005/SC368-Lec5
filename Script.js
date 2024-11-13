@@ -1,5 +1,5 @@
 const inputText = document.getElementById("TodoTitle");
-
+const Todos = [];
 function onClickSubmitButton() {
-  console.log(inputText);
+  console.log(inputText.value);
 }
