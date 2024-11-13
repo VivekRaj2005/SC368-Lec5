@@ -10,7 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
     <nav class="navbar bg-body-tertiary">
@@ -21,25 +21,26 @@
         </a>
       </div>
     </nav>
-    <form class="form">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Todo Title</label>
-        <input
-          type="text"
-          class="form-control"
-          id="TodoTitle"
-          aria-describedby="emailHelp"
-        />
-        <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
-        </div>
+    <div class="mb-3 form">
+      <label for="exampleInputEmail1" class="form-label">Todo Title</label>
+      <input
+        type="text"
+        class="form-control"
+        id="TodoTitle"
+        aria-describedby="emailHelp"
+      />
+      <div id="emailHelp" class="form-text">
+        We'll never share your email with anyone else.
       </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary" onclick="onClickSubmitButton">Submit</button>
-    </form>
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button class="btn btn-primary" onclick="onClickSubmitButton()">
+      Submit
+    </button>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

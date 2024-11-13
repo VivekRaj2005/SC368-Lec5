@@ -1,5 +1,5 @@
 const inputText = document.getElementById("TodoTitle");
-function onClickSubmitButton(event) {
-  event.preventDefault();
+
+function onClickSubmitButton() {
   console.log(inputText);
 }
